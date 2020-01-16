@@ -1,0 +1,36 @@
+#leftbox { 
+                display: inline-block; 
+                background:Red; 
+                width:30%; 
+                height:280px;
+                padding : 10px; 
+            } 
+#middlebox{ 
+             display: inline-block;  
+             background:Green;
+             width:30%; 
+             height:280px;
+             padding : 10px;  
+            } 
+#rightbox{ 
+             display: inline-block;
+             background:blue; 
+             width:30%; 
+             height:280px; 
+             padding : 10px; 
+            } 
+#middlevertical{
+         display: inline-block;
+         background:black;
+         width : 30%;
+         height : 280px;
+         padding : 10px; 
+}
+#bottomvertical{
+         display: inline-block;
+         background :purple;
+         width : 30%;
+         height : 280px;
+         padding : 10px; 
+         margins : 80px;
+}
