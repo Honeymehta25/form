@@ -23,6 +23,11 @@
   background-color: #4CAF50;
   color: white;
 }
+.topnav sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 
 table, th, td {
@@ -58,5 +63,4 @@ nav ul {
   list-style-type: none;
   padding: 0;
 }
-
 
