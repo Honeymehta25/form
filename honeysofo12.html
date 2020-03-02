@@ -2,7 +2,7 @@
 
 <head>
     <title>PERSONAL DETAILS</title>
-    <link rel="stylesheet" type="text/css" href="prolitus.css">
+    <link rel="stylesheet" type="text/css" href="prolitus12.css">
     <script>
         function validationForm() {
             var firstName = document.getElementById("first-name").value;
@@ -24,107 +24,110 @@
             if (firstName.length == 0) {
                 var iframe = document.getElementById("first-name");
                 console.log(iframe.tagName);
-                 var par = document.createElement("p");
-                 var node= document.createTextNode("please enter first name");
-                 par.appendChild(node);
-                 var element = document.getElementById("f-name");
-                 element.appendChild(par);
-            } 
+                var par = document.createElement("p");
+                var node = document.createTextNode("please enter first name");
+                par.appendChild(node);
+                var element = document.getElementById("f-name");
+                element.appendChild(par);
+            }
             else {
-                 var element = document.getElementById("f-name");
+                var element = document.getElementById("f-name");
                 element.removeChild(element.childNodes[2]);
             }
             if (middleName.length == 0) {
                 var iframe = document.getElementById("m-name");
                 console.log(iframe.tagName);
-                 var par = document.createElement("p");
-                 var node= document.createTextNode("please enter middle name");
-                 par.appendChild(node);
-                 var element = document.getElementById("ma-name");
-                 element.appendChild(par);
-            } 
+                var par = document.createElement("p");
+                var node = document.createTextNode("please enter middle name");
+                par.appendChild(node);
+                var element = document.getElementById("ma-name");
+                element.appendChild(par);
+            }
             else {
-                 var element = document.getElementById("ma-name");
-                 element.removeChild(element.childNodes[2]);
+                var element = document.getElementById("ma-name");
+                element.removeChild(element.childNodes[2]);
             }
             if (lastName.length == 0) {
                 var iframe = document.getElementById("l-name");
                 console.log(iframe.tagName);
-                 var par = document.createElement("p");
-                 var node= document.createTextNode("please enter last name");
-                 par.appendChild(node);
-                 var element = document.getElementById("la-name");
-                 element.appendChild(par);
-            } 
+                var par = document.createElement("p");
+                var node = document.createTextNode("please enter last name");
+                par.appendChild(node);
+                var element = document.getElementById("la-name");
+                element.appendChild(par);
+            }
             else {
-                 var element = document.getElementById("la-name");
-                 element.removeChild(element.childNodes[2]);
+                var element = document.getElementById("la-name");
+                element.removeChild(element.childNodes[2]);
             }
             if (faName.length == 0) {
                 var iframe = document.getElementById("fa-name");
                 console.log(iframe.tagName);
-                 var par = document.createElement("p");
-                 var node= document.createTextNode("please enter father name");
-                 par.appendChild(node);
-                 var element = document.getElementById("faa-name");
-                 element.appendChild(par);
-            } 
+                var par = document.createElement("p");
+                var node = document.createTextNode("please enter father name");
+                par.appendChild(node);
+                var element = document.getElementById("faa-name");
+                element.appendChild(par);
+            }
             else {
-                 var element = document.getElementById("faa-name");
-                 element.removeChild(element.childNodes[2]);
+                var element = document.getElementById("faa-name");
+                element.removeChild(element.childNodes[2]);
             }
             if (moName.length == 0) {
                 var iframe = document.getElementById("mo-name");
                 console.log(iframe.tagName);
-                 var par = document.createElement("p");
-                 var node= document.createTextNode("please enter mobile number");
-                 par.appendChild(node);
-                 var element = document.getElementById("moo-name");
-                 element.appendChild(par);
-            } 
+                var par = document.createElement("p");
+                var node = document.createTextNode("please enter mobile number");
+                par.appendChild(node);
+                var element = document.getElementById("moo-name");
+                element.appendChild(par);
+            }
             else {
-                 var element = document.getElementById("moo-name");
-                 element.removeChild(element.childNodes[2]);
+                var element = document.getElementById("moo-name");
+                element.removeChild(element.childNodes[2]);
             }
             if (addName.length == 0) {
                 var iframe = document.getElementById("a-name");
                 console.log(iframe.tagName);
-                 var par = document.createElement("p");
-                 var node= document.createTextNode("please enter address");
-                 par.appendChild(node);
-                 var element = document.getElementById("aa-name");
-                 element.appendChild(par);
-            } 
+                var par = document.createElement("p");
+                var node = document.createTextNode("please enter address");
+                par.appendChild(node);
+                var element = document.getElementById("aa-name");
+                element.appendChild(par);
+            }
             else {
-                 var element = document.getElementById("aa-name");
-                 element.removeChild(element.childNodes[2]);
-            }                          
+                var element = document.getElementById("aa-name");
+                element.removeChild(element.childNodes[2]);
+            }
             if (emName.length == 0) {
-                var iframe = document.getElementById("e-name");
+                var myimg = document.getElementById("e-name");
                 console.log(iframe.tagName);
-                 var par = document.createElement("p");
-                 var node= document.createTextNode("please enter email address");
-                 par.appendChild(node);
-                 var element = document.getElementById("eaa-name");
-                 element.appendChild(par);
-            } 
+                // var myimg = document.getElementById('myimg');
+                var text = document.createTextNode("This is my caption.");
+                myimg.parentNode.insertBefore(text, myimg.nextSibling);
+                //  var par = document.createElement("p");
+                //  var node= document.createTextNode("please enter email address");
+                //  par.appendChild(node);
+                //  var element = document.getElementById("eaa-name");
+                //  element.appendChild(par);
+            }
             else {
-                 var element = document.getElementById("eaa-name");
-                 element.removeChild(element.childNodes[2]);
-            }                           
+                var element = document.getElementById("eaa-name");
+                element.removeChild(element.childNodes[2]);
+            }
             if (pasName.length == 0) {
                 var iframe = document.getElementById("p-name");
                 console.log(iframe.tagName);
-                 var par = document.createElement("p");
-                 var node= document.createTextNode("please enter password");
-                 par.appendChild(node);
-                 var element = document.getElementById("paa-name");
-                 element.appendChild(par);
-            } 
+                var par = document.createElement("p");
+                var node = document.createTextNode("please enter password");
+                par.appendChild(node);
+                var element = document.getElementById("paa-name");
+                element.appendChild(par);
+            }
             else {
-                 var element = document.getElementById("paa-name");
-                 element.removeChild(element.childNodes[2]);
-            }                                                                                     
+                var element = document.getElementById("paa-name");
+                element.removeChild(element.childNodes[2]);
+            }
 
         }
 
@@ -144,33 +147,35 @@
     <div style="z-index: 10">
 
         <form>
-            <div  style=" margin-top:10px ; margin-left:200px;">
+            <div style=" margin-top:10px ; margin-left:200px;">
                 <div id="f-name">
-                <input id="first-name" type="text" style="display: block;" placeholder="firstname" value="" maxlength="10">
-            </div>
-            <div id="ma-name">
-                <input id="m-name" type="text" style="display: block;" placeholder="Middlename" maxlength="10">
+                    <input id="first-name" type="text" style="display: block;" placeholder="firstname" value=""
+                        maxlength="10">
+                </div>
+                <div id="ma-name">
+                    <input id="m-name" type="text" style="display: block;" placeholder="Middlename" maxlength="10">
                 </div>
                 <div id="la-name">
-                <input id="l-name" type="text" style="display: block;" placeholder="Lastname" maxlength="10">
+                    <input id="l-name" type="text" style="display: block;" placeholder="Lastname" maxlength="10">
                 </div>
                 <div id="faa-name">
-                <input id="fa-name" type="text" style="display: block;" placeholder="Fathername" maxlength="10">
+                    <input id="fa-name" type="text" style="display: block;" placeholder="Fathername" maxlength="10">
                 </div>
                 <div id="moo-name">
-                <input id="mo-name" type="text" style="display: block;" placeholder="mobile no." maxlength="10">
+                    <input id="mo-name" type="text" style="display: block;" placeholder="mobile no." maxlength="10">
                 </div>
                 <div id="aa-name">
-                <input id="a-name" type="text" style="display: block;" placeholder="address" maxlength="50">
+                    <input id="a-name" type="text" style="display: block;" placeholder="address" maxlength="50">
                 </div>
                 <div id="eaa-name">
-                <input id="e-name" type="email" style="display: block;" placeholder="E-mail ID" maxlength="25">
+                    <input id="e-name" type="email" style="display: block;" placeholder="E-mail ID" maxlength="25">
                 </div>
                 <div id="paa-name">
-                <input id="p-name" type="password" style="display: block;" placeholder="password" maxlength="10">
+                    <input id="p-name" type="password" style="display: block;" placeholder="password" maxlength="10">
                 </div>
                 <div id="ca-name">
-                <input id="c-name" type="password" style="display: block;" placeholder="Confirm password"maxlength="10">
+                    <input id="c-name" type="password" style="display: block;" placeholder="Confirm password"
+                        maxlength="10">
                 </div>
                 <div>
                     <input type="radio" id="male" name="gender"><label for="male">male</label>

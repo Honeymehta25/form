@@ -1,0 +1,30 @@
+body {
+    padding-top: 100px;
+    background-color: aqua;
+}
+
+
+div {
+    width: 550px;
+    margin: 10px auto;
+    /* border: 3px solid black; */
+    border: 0px;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: burlywood;
+}
+input{
+    padding:10px;
+    font-size: inherit;
+    }
+    input[type="text"]
+    {
+    display:block;
+    margin-bottom:25px;
+    width:100%;
+    border: 2px solid steelblue;
+    background:#FAF6D9;
+    }
+ h1{
+     font-size: 60px;
+ }   
